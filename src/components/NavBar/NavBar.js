@@ -1,7 +1,7 @@
 import React from 'react';
 
 const NavBar = (props) => (
-  <nav className = 'navbar navbar-dark bg-primary'>
+  <nav className = 'navbar navbar-dark bg-primary fixed-top'>
     <a className = 'navbar-brand' href = '/'>Memory Game</a>
     <span className = 'navbar-text text-white'>
     {props.children}

@@ -1,74 +1,74 @@
 [
   {
     "id": 1,
-    "name": "One",
-    "image": "https://via.placeholder.com/170x170",
+    "name": "Akita",
+    "image": "https://yt3.ggpht.com/a-/AN66SAwe2tPpVOeplJrJZ6sGygf_HqQtywSCRcoGFw=s900-mo-c-c0xffffffff-rj-k-no",
     "clicked": 0
   },
   {
     "id": 2,
-    "name": "Two",
-    "image": "https://via.placeholder.com/170x170",
+    "name": "Chihuahua",
+    "image": "https://petgearlab.com/wp-content/uploads/2017/01/chihuahua-brown.jpg",
     "clicked": 0
   },
   {
     "id": 3,
-    "name": "Three",
-    "image": "https://via.placeholder.com/170x170",
+    "name": "Shiba Inu",
+    "image": "http://dcsir.org/wp-content/uploads/2017/12/Screen-Shot-2017-12-16-at-7.43.20.png",
     "clicked": 0
   },
   {
     "id": 4,
-    "name": "Four",
-    "image": "https://via.placeholder.com/170x170",
+    "name": "Pug",
+    "image": "https://moderndogmagazine.com/sites/default/files/images/uploads/Pug.jpg",
     "clicked": 0
   },
   {
     "id": 5,
-    "name": "Five",
-    "image": "https://via.placeholder.com/170x170",
+    "name": "Pomeranian",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZf9WwXX3MARg4xONsmteuiXtMiRwj9YykOQoFNh45C7RtmaKM2g",
     "clicked": 0
   },
   {
     "id": 6,
-    "name": "Six",
-    "image": "https://via.placeholder.com/170x170",
+    "name": "Doberman",
+    "image": "https://thedailyshep.com/wp-content/uploads/2017/12/doberman-2978274_1280.jpg",
     "clicked": 0
   },
   {
     "id": 7,
-    "name": "Seven",
-    "image": "https://via.placeholder.com/170x170",
+    "name": "Beagle",
+    "image": "http://www.dogbreedslist.info/uploads/allimg/dog-pictures/Beagle-1.jpg",
     "clicked": 0
   },
   {
     "id": 8,
-    "name": "Eight",
-    "image": "https://via.placeholder.com/170x170",
+    "name": "Golden Retriever",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMAkBr-23z9Xi6RMirVcBoaHSrHifzv7XliOymY9jgrKnJdvIoSA",
     "clicked": 0
   },
   {
     "id": 9,
-    "name": "Nine",
-    "image": "https://via.placeholder.com/170x170",
+    "name": "Lhasa Apso",
+    "image": "https://savearescue.org/wp-content/uploads/2013/06/LHASA-APSO.jpg",
     "clicked": 0
   },
   {
     "id": 10,
-    "name": "Ten",
-    "image": "https://via.placeholder.com/170x170",
+    "name": "Greyhound",
+    "image": "https://www.thetrendywhippet.co.uk/wp-content/uploads/2016/12/IMG_2296-800x800.jpg",
     "clicked": 0
   },
   {
     "id": 11,
-    "name": "Eleven",
-    "image": "https://via.placeholder.com/170x170",
+    "name": "Schnauzer",
+    "image": "https://www.okchicas.com/wp-content/uploads/2017/06/perritos-schnauzer-malos-12.jpg",
     "clicked": 0
   },
   {
     "id": 12,
-    "name": "Twelve",
-    "image": "https://via.placeholder.com/170x170",
+    "name": "Newfoundland",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Novofundlandec.jpg/220px-Novofundlandec.jpg",
     "clicked": 0
   }
 ]

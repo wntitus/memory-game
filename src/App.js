@@ -15,12 +15,38 @@ class App extends Component {
     highScore: 0
   };
 
+  endGameHandler = () => {
+    if (this.state.score > this.state.highScore) {
+      this.setState({highScore: this.state.score});
+    }
+    this.state.cards.forEach(card => {
+      card.clicked = 0;
+    });
+    this.setState({score: 0});
+    return true;
+  }
+
+  clickHandler = id => {
+    this.state.cards.find((item, idNum) => {
+      if (item.id === id) {
+        if (cards[idNum].clicked === 0) {
+          cards[idNum].clicked = cards[idNum].clicked + 1;
+          this.setState({score: this.state.score + 1})
+          this.state.cards.sort(() => Math.random() - 0.5);
+          return true
+        } else {
+          this.state.cards.sort(() => Math.random() - 0.5);
+          this.endGameHandler();
+        }
+      }
+    })
+  }
 
 
   render() {
     return (
       <div className="App">
-        <NavBar />
+        <NavBar score = {this.state.score} highScore = {this.state.highScore}/>
         <Container>
           <Row>
             <Column size='12'>
@@ -29,7 +55,7 @@ class App extends Component {
           </Row>
           <Row>
             {this.state.cards.map(card => (
-              <Card id = {card.id} key = {card.id} image = {card.image} />
+              <Card id = {card.id} key = {card.id} image = {card.image} clickHandler = {this.clickHandler}/>
             ))}
           </Row>
         </Container>
