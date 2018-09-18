@@ -35,8 +35,8 @@ class App extends Component {
           this.state.cards.sort(() => Math.random() - 0.5);
           return true
         } else {
-          this.state.cards.sort(() => Math.random() - 0.5);
           this.endGameHandler();
+          this.state.cards.sort(() => Math.random() - 0.5);
         }
       }
     })
